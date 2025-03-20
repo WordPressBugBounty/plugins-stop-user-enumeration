@@ -6,4 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname(dirname($vendorDir));
 
 return array(
+    'Fullworks_WP_Autoloader\\' => array($vendorDir . '/alanef/wp_autoloader/src'),
+    'Fullworks_Free_Plugin_Lib\\' => array($vendorDir . '/alanef/free_plugin_lib/src'),
 );
