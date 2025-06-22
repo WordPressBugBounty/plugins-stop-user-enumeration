@@ -6,9 +6,6 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname(dirname($vendorDir));
 
 return array(
-    'ComposerAutoloaderInit5ceeafea73cf4061b84971f875180dce' => $vendorDir . '/composer/autoload_real.php',
-    'Composer\\Autoload\\ClassLoader' => $vendorDir . '/composer/ClassLoader.php',
-    'Composer\\Autoload\\ComposerStaticInit5ceeafea73cf4061b84971f875180dce' => $vendorDir . '/composer/autoload_static.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
     'Composer\\Installers\\AglInstaller' => $vendorDir . '/composer/installers/src/Composer/Installers/AglInstaller.php',
     'Composer\\Installers\\AnnotateCmsInstaller' => $vendorDir . '/composer/installers/src/Composer/Installers/AnnotateCmsInstaller.php',
