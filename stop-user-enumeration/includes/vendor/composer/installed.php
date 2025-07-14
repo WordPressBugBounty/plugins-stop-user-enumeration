@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'fullworks/stop-user-enumeration',
-        'pretty_version' => 'v1.7.4',
-        'version' => '1.7.4.0',
-        'reference' => '9cd863225735486704216cf2e1ef7073b57e9283',
+        'pretty_version' => 'v1.7.5',
+        'version' => '1.7.5.0',
+        'reference' => '1c87157e6ea9735c4a6788f963302f092200a4bd',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../../',
         'aliases' => array(),
@@ -29,9 +29,9 @@
             'dev_requirement' => false,
         ),
         'fullworks/stop-user-enumeration' => array(
-            'pretty_version' => 'v1.7.4',
-            'version' => '1.7.4.0',
-            'reference' => '9cd863225735486704216cf2e1ef7073b57e9283',
+            'pretty_version' => 'v1.7.5',
+            'version' => '1.7.5.0',
+            'reference' => '1c87157e6ea9735c4a6788f963302f092200a4bd',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../../',
             'aliases' => array(),
