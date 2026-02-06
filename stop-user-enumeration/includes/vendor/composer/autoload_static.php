@@ -7,23 +7,23 @@ namespace Composer\Autoload;
 class ComposerStaticInit5ceeafea73cf4061b84971f875180dce
 {
     public static $prefixLengthsPsr4 = array (
-        'F' => 
+        'F' =>
         array (
             'Fullworks_Free_Plugin_Lib\\' => 26,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Fullworks_Free_Plugin_Lib\\' => 
+        'Fullworks_Free_Plugin_Lib\\' =>
         array (
             0 => __DIR__ . '/..' . '/alanef/free_plugin_lib/src',
         ),
     );
 
     public static $prefixesPsr0 = array (
-        'C' => 
+        'C' =>
         array (
-            'Composer\\Installers\\' => 
+            'Composer\\Installers\\' =>
             array (
                 0 => __DIR__ . '/..' . '/composer/installers/src',
             ),
@@ -31,6 +31,9 @@ class ComposerStaticInit5ceeafea73cf4061b84971f875180dce
     );
 
     public static $classMap = array (
+        'ComposerAutoloaderInit5ceeafea73cf4061b84971f875180dce' => __DIR__ . '/..' . '/composer/autoload_real.php',
+        'Composer\\Autoload\\ClassLoader' => __DIR__ . '/..' . '/composer/ClassLoader.php',
+        'Composer\\Autoload\\ComposerStaticInit5ceeafea73cf4061b84971f875180dce' => __DIR__ . '/..' . '/composer/autoload_static.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Composer\\Installers\\AglInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/AglInstaller.php',
         'Composer\\Installers\\AnnotateCmsInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/AnnotateCmsInstaller.php',
@@ -83,7 +86,6 @@ class ComposerStaticInit5ceeafea73cf4061b84971f875180dce
         'Stop_User_Enumeration\\Includes\\Core' => __DIR__ . '/../../..' . '/includes/class-core.php',
         'Stop_User_Enumeration\\Includes\\Loader' => __DIR__ . '/../../..' . '/includes/class-loader.php',
         'Stop_User_Enumeration\\Includes\\Uninstall' => __DIR__ . '/../../..' . '/includes/class-uninstall.php',
-        'Stop_User_Enumeration\\Includes\\i18n' => __DIR__ . '/../../..' . '/includes/class-i18n.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

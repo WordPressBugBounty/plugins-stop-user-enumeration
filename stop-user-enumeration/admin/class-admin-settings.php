@@ -33,11 +33,6 @@ class Admin_Settings extends Admin_Pages {
 		$this->plugin_name    = $plugin_name;
 		$this->version        = $version;
 		parent::__construct();
-		new \Fullworks_Free_Plugin_Lib\Main('stop-user-enumeration/stop-user-enumeration.php',
-			admin_url( 'options-general.php?page=stop-user-enumeration' ),
-			'SUE-Free',
-			'html_files_page_load-html-files-settings',
-			$this->settings_title);
 	}
 
 
@@ -113,7 +108,10 @@ class Admin_Settings extends Admin_Pages {
 		?>
         <table class="form-table">
             <tbody>
-            <?php do_action('ffpl_ad_display'); ?>
+            <?php
+			// phpcs:ignore WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedHooknameFound -- external hook from Opt-in Library
+			do_action('ffpl_ad_display');
+			?>
             <tr class="alternate">
                 <th scope="row"><?php esc_html_e( 'About this Plugin', 'stop-user-enumeration' ); ?></th>
                 <td><p>
