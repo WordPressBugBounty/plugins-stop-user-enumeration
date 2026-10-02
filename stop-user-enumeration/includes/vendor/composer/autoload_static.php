@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit5ceeafea73cf4061b84971f875180dce
+class ComposerStaticInit09347b3d36fb9de9d34777796c5e08ee
 {
     public static $prefixLengthsPsr4 = array (
         'F' =>
@@ -72,7 +72,6 @@ class ComposerStaticInit5ceeafea73cf4061b84971f875180dce
         'Composer\\Installers\\WordPressInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/WordPressInstaller.php',
         'Composer\\Installers\\ZendInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ZendInstaller.php',
         'Composer\\Installers\\ZikulaInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ZikulaInstaller.php',
-        'Fullworks_Free_Plugin_Lib\\Classes\\Advert' => __DIR__ . '/..' . '/alanef/free_plugin_lib/src/Classes/Advert.php',
         'Fullworks_Free_Plugin_Lib\\Classes\\Email' => __DIR__ . '/..' . '/alanef/free_plugin_lib/src/Classes/Email.php',
         'Fullworks_Free_Plugin_Lib\\Classes\\Security' => __DIR__ . '/..' . '/alanef/free_plugin_lib/src/Classes/Security.php',
         'Fullworks_Free_Plugin_Lib\\Main' => __DIR__ . '/..' . '/alanef/free_plugin_lib/src/Main.php',
@@ -88,10 +87,10 @@ class ComposerStaticInit5ceeafea73cf4061b84971f875180dce
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit5ceeafea73cf4061b84971f875180dce::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit5ceeafea73cf4061b84971f875180dce::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit5ceeafea73cf4061b84971f875180dce::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit5ceeafea73cf4061b84971f875180dce::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit09347b3d36fb9de9d34777796c5e08ee::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit09347b3d36fb9de9d34777796c5e08ee::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit09347b3d36fb9de9d34777796c5e08ee::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit09347b3d36fb9de9d34777796c5e08ee::$classMap;
 
         }, null, ClassLoader::class);
     }

@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'fullworks/stop-user-enumeration',
-        'pretty_version' => '1.7.8',
-        'version' => '1.7.8.0',
-        'reference' => 'a8f3475120bf52a557b9a75059fdf938b98b2057',
+        'pretty_version' => 'v1.7.9',
+        'version' => '1.7.9.0',
+        'reference' => 'a87eb0b6cac8051b239c5ad7294599b74bdbe768',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'alanef/free_plugin_lib' => array(
-            'pretty_version' => '1.2.4',
-            'version' => '1.2.4.0',
-            'reference' => '13c1802b6abe03800dfc93400c92aaf0e74c4a6d',
+            'pretty_version' => '1.3.0',
+            'version' => '1.3.0.0',
+            'reference' => '6dfce2995dde31a1d12e6f8113c4b420ebd83fe9',
             'type' => 'library',
             'install_path' => __DIR__ . '/../alanef/free_plugin_lib',
             'aliases' => array(),
@@ -29,9 +29,9 @@
             'dev_requirement' => false,
         ),
         'fullworks/stop-user-enumeration' => array(
-            'pretty_version' => '1.7.8',
-            'version' => '1.7.8.0',
-            'reference' => 'a8f3475120bf52a557b9a75059fdf938b98b2057',
+            'pretty_version' => 'v1.7.9',
+            'version' => '1.7.9.0',
+            'reference' => 'a87eb0b6cac8051b239c5ad7294599b74bdbe768',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../../',
             'aliases' => array(),
