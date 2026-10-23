@@ -2,17 +2,17 @@
     "packages": [
         {
             "name": "alanef/free_plugin_lib",
-            "version": "1.3.0",
-            "version_normalized": "1.3.0.0",
+            "version": "1.3.2",
+            "version_normalized": "1.3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/alanef/free_plugin_lib.git",
-                "reference": "6dfce2995dde31a1d12e6f8113c4b420ebd83fe9"
+                "reference": "9e94ffc83b7ec4cb82ce341cfc7771fc3af0146a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/alanef/free_plugin_lib/zipball/6dfce2995dde31a1d12e6f8113c4b420ebd83fe9",
-                "reference": "6dfce2995dde31a1d12e6f8113c4b420ebd83fe9",
+                "url": "https://api.github.com/repos/alanef/free_plugin_lib/zipball/9e94ffc83b7ec4cb82ce341cfc7771fc3af0146a",
+                "reference": "9e94ffc83b7ec4cb82ce341cfc7771fc3af0146a",
                 "shasum": ""
             },
             "require": {
@@ -24,7 +24,7 @@
                 "wp-phpunit/wp-phpunit": "^6.7",
                 "yoast/wp-test-utils": "^1.2"
             },
-            "time": "2026-10-02T09:11:20+00:00",
+            "time": "2026-10-23T06:44:46+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -45,7 +45,7 @@
             "description": "Library to add to free plugins, in compliance with wp.org",
             "support": {
                 "issues": "https://github.com/alanef/free_plugin_lib/issues",
-                "source": "https://github.com/alanef/free_plugin_lib/tree/v1.3.0"
+                "source": "https://github.com/alanef/free_plugin_lib/tree/v1.3.2"
             },
             "install-path": "../alanef/free_plugin_lib"
         },
